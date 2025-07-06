@@ -1,0 +1,13 @@
+name = "formixio"
+compatibility_date = "2025-07-06"
+
+[build]
+command = "npm run build"
+
+[[routes]]
+pattern = "formixio.com/*"
+custom_domain = true
+
+[[routes]]
+pattern = "www.formixio.com/*"
+custom_domain = true
